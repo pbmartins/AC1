@@ -1,0 +1,7 @@
+.text
+.globl main
+main:
+	blt $t0, $t1, label
+	
+label:
+	jr $ra
