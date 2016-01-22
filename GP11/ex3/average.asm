@@ -17,6 +17,7 @@ for:
 	j for
 	
 endfor:
+	sub.d $f6, $f6, $f6
 	mtc1.d $a1, $f6
 	cvt.d.w $f6, $f6
 	div.d $f0, $f0, $f6

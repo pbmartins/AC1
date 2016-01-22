@@ -7,7 +7,6 @@ stdev:
 	jal var
 	mov.d $f12, $f0
 	jal sqrt
-	mov.d $f12, $f0
 	
 	lw $ra, 0($sp)
 	addi $sp, $sp, 4
