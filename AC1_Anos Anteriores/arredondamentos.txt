@@ -1,5 +1,0 @@
-0xx - round down = do nothing (x means any bit value, 0 or 1)
-100 - this is a tie: round up if the mantissa's bit just before G is 1, else round down=do nothing
-101 - round up
-110 - round up
-111 - round up = somar 1 à mantissa
